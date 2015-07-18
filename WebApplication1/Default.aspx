@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div ng-app="_data">
     <h1>hello world --Gaurav kaushik </h1>
     </div>
     </form>
