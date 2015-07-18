@@ -14,7 +14,7 @@
                 Name :
                 <input type="text" ng-model="name" placeholder="your name" style="text-transform: initial;">
             </p>
-            <h1 style="text-transform: initial;">Hello {{name}}</h1>
+            <h1  style="text-transform: initial;">Hello {{name}}</h1>
         </div>
     </form>
 </body>
