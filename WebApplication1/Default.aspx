@@ -5,12 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div ng-app="data">
-    <h1>hello world --Gaurav kaushik </h1>
-    </div>
+        <div ng-app="">
+            <p>
+                Name :
+                <input type="text" ng-model="name" placeholder="your name" style="text-transform: initial;">
+            </p>
+            <h1 style="text-transform: initial;">Hello {{name}}</h1>
+        </div>
     </form>
 </body>
 </html>
